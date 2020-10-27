@@ -11,4 +11,4 @@ def caesar_cipher(str, shift)
   end.map(&:chr).join
 end
 
-puts caesar_cipher("Testi", 5)
+puts caesar_cipher("Testi joo ", 5)
